@@ -1,4 +1,4 @@
-name: Deploy Portfolio to AWS S3 manish
+name: Deploy Portfolio to AWS S3
 
 on:
   push:
