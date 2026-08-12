@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manish Kumar - DevOps & Cloud Engineer portfolio and resume">
+  <meta name="author" content="Manish Kumar">
+  <meta property="og:title" content="Manish Kumar | DevOps & Cloud Engineer">
+  <meta property="og:description" content="DevOps, Cloud, Kubernetes, Terraform and CI/CD portfolio.">
+  <meta property="og:type" content="website">
+  <title>Manish Kumar | DevOps & Cloud Engineer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home">MK<span>.</span></a>
+  <button class="menu" aria-label="Toggle navigation">☰</button>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero container">
+  <div>
+    <p class="eyebrow">DEVOPS & CLOUD ENGINEER</p>
+    <h1>Infrastructure that is <span>automated</span>, scalable and repeatable.</h1>
+    <p class="lead">BCA graduate focused on Kubernetes, AWS, Azure, GCP, Terraform, Ansible and CI/CD automation.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore Projects</a>
+      <a class="btn" href="mailto:manireet0607@gmail.com">Contact Me</a>
+    </div>
+    <div class="stats">
+      <div><b>70%</b><small>faster server configuration</small></div>
+      <div><b>0</b><small>downtime rolling deployment</small></div>
+      <div><b>3</b><small>cloud platforms</small></div>
+    </div>
+  </div>
+  <div class="terminal" aria-label="DevOps terminal">
+    <div class="dots"><i></i><i></i><i></i><span>manish@devops</span></div>
+    <pre>$ kubectl get nodes
+NAME          STATUS
+control-plane Ready
+worker-01     Ready
+worker-02     Ready
+
+$ terraform apply
+Apply complete!
+
+$ echo "Automate. Deploy. Observe."
+Automate. Deploy. Observe.</pre>
+  </div>
+</section>
+
+<section id="about" class="section container two-col">
+  <div><p class="eyebrow">01 / ABOUT</p><h2>Building production-style infrastructure.</h2></div>
+  <div class="muted">
+    <p>BCA graduate (2026) who builds production-style infrastructure, not just tutorials: self-managed Kubernetes clusters, Terraform/Ansible automation, and fully automated CI/CD pipelines with Jenkins and GitHub Actions.</p>
+    <p>Hands-on work includes event-driven GitHub pipelines, zero-downtime Kubernetes rolling deployments, AWS infrastructure automation and Dockerized application deployments.</p>
+  </div>
+</section>
+
+<section id="skills" class="section container">
+  <p class="eyebrow">02 / TECH STACK</p><h2>Skills & tools</h2>
+  <div class="grid skills">
+    <article><h3>Cloud</h3><p>AWS · Microsoft Azure · GCP</p></article>
+    <article><h3>Containers</h3><p>Docker · Docker Compose · Kubernetes · kubeadm · kubectl</p></article>
+    <article><h3>IaC</h3><p>Terraform · Ansible</p></article>
+    <article><h3>CI/CD</h3><p>Jenkins · GitHub Actions · GitLab CI · GitHub Webhooks</p></article>
+    <article><h3>Observability</h3><p>Prometheus · Grafana</p></article>
+    <article><h3>Systems</h3><p>Linux · Bash · Python · Git · DNS · HTTP/S · TCP/IP · MySQL</p></article>
+  </div>
+</section>
+
+<section id="projects" class="section container">
+  <p class="eyebrow">03 / PROJECTS</p><h2>Hands-on projects</h2>
+  <div class="grid projects">
+    <article><span class="number">01</span><h3>Automated GitHub-Triggered CI/CD Pipeline</h3><p class="muted">Jenkins + GitHub Webhooks / GitHub Actions</p><ul><li>Push events automatically trigger builds.</li><li>Version-controlled Jenkinsfile covers checkout, build, test, Dockerize and deploy.</li><li>Build status checks reported to GitHub pull requests.</li></ul><div class="tags">Jenkins · GitHub · CI/CD · Docker</div></article>
+    <article><span class="number">02</span><h3>Kubernetes Rolling Update Deployment on AWS EC2</h3><p class="muted">Container orchestration & cloud deployment</p><ul><li>Provisioned a self-managed kubeadm cluster on AWS EC2.</li><li>Exposed a static website through Kubernetes NodePort.</li><li>Executed a v1.0 → v2.0 zero-downtime rolling update.</li></ul><div class="tags">Kubernetes · AWS · Linux · socat</div></article>
+    <article><span class="number">03</span><h3>Automated Server Provisioning with Terraform & Ansible</h3><p class="muted">Infrastructure automation</p><ul><li>Provisioned EC2 infrastructure with repeatable Terraform code.</li><li>Defined VPCs, subnets and security groups as code.</li><li>Automated Linux configuration, firewall enforcement and Nginx setup.</li></ul><div class="tags">Terraform · Ansible · AWS · IaC</div></article>
+    <article><span class="number">04</span><h3>Dockerized Flask App with Nginx Reverse Proxy</h3><p class="muted">Containerization & reverse proxy</p><ul><li>Containerized a Python Flask application with a multi-stage Docker build.</li><li>Configured Nginx as reverse proxy and load balancer in Docker Compose.</li><li>Managed environment variables and secrets using .env files.</li></ul><div class="tags">Docker · Flask · Nginx · Compose</div></article>
+  </div>
+</section>
+
+<section id="education" class="section container two-col">
+  <div><p class="eyebrow">04 / EDUCATION</p><h2>Education & certifications</h2></div>
+  <div class="timeline">
+    <article><b>Bachelor of Computer Applications (BCA)</b><small>2026 · CGPA 7.5/10.0</small><p>Ganga Institute of Technology and Management, Delhi NCR</p></article>
+    <article><b>Cloud Computing Fundamentals</b><small>IBM SkillsBuild</small></article>
+    <article><b>DevOps Certification</b><small>Ducat Institute</small></article>
+    <article><b>Docker & Kubernetes: The Practical Guide</b></article>
+    <article><b>DevOps Beginners to Advanced with Projects</b></article>
+  </div>
+</section>
+
+<section id="contact" class="contact container">
+  <p class="eyebrow">05 / CONTACT</p>
+  <h2>Let's build better infrastructure.</h2>
+  <p class="muted">DevOps · Cloud · Kubernetes · Infrastructure as Code · CI/CD</p>
+  <div class="actions center">
+    <a class="btn primary" href="mailto:manireet0607@gmail.com">manireet0607@gmail.com</a>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/manish-kumar-651b572b1/">LinkedIn</a>
+    <a class="btn" target="_blank" rel="noopener" href="https://github.com/manireet0607">GitHub</a>
+  </div>
+</section>
+</main>
+
+<footer class="container"><span>© 2026 Manish Kumar</span><span>DevOps & Cloud Engineer</span></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
